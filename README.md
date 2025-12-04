@@ -15,6 +15,21 @@ Este proyecto es una aplicación web para la administración del personal de una
 
 ---
 
+🔗 Backend Recomendado
+
+Para este proyecto puedes utilizar como backend la API ya desarrollada en la evidencia anterior:
+
+👉 Backend oficial:
+https://github.com/Monica-Ismelia/GA7-220501096-AA3-EV02-gestion-empleados
+
+Este backend incluye:
+
+- CRUD completo de empleados
+- Base de datos MySQL
+- Validaciones y manejo de errores
+- Arquitectura Spring Boot lista para producción
+- Endpoints REST listos para consumir desde este frontend
+
 ## 🧰 Tecnologías  
 
 | Capa        | Tecnologías / Herramientas |
@@ -51,9 +66,11 @@ cd gestion-empleados--GA7-220501096-AA4-EV03
 
 ### 3. Ejecutar el backend  
 ```bash
-cd backend-origen  # o la carpeta donde está tu proyecto backend
+-  cAsegúrate de tener corriendo el backend de la EV02:
 mvn clean package
 java -jar target/gestion-empleados-1.0-SNAPSHOT.jar
+-  Debe estar disponible en:
+http://localhost:8080/api/empleados
 ```
 
 ### 4. Ejecutar el frontend (React)  
