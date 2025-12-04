@@ -1,11 +1,11 @@
-📌 Sistema de Gestión de Empleados (SGRH)
+## 📌 Sistema de Gestión de Empleados (SGRH)
 Proyecto Spring Boot + React
 
 Aprendiz: Mónica Ismelia Cañas Reyes
 Ficha: 2977425
 Programa: Tecnólogo en Análisis y Desarrollo de Software
 
-📘 Descripción del Proyecto
+### 📘 Descripción del Proyecto
 
 El Sistema de Gestión de Empleados (SGRH) es una aplicación web desarrollada para administrar la información del personal de una empresa.
 Incluye un backend en Spring Boot conectado a MySQL y un frontend desarrollado en React.
@@ -73,10 +73,12 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 ✔ Navegador web (Chrome/Opera/Edge)
 
-⚙️ Instalación y Configuración
+
+# ⚙️ Instalación y Configuración
 🟦 1. Backend – Spring Boot
 1.1. Clonar el repositorio
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Monica-Ismelia/gestion-empleados--GA7-220501096-AA4-EV03
+git clone https://github.com/Monica-Ismelia/GA7-220501096-AA3-EV02-gestion-empleados
 
 1.2. Crear la base de datos
 
@@ -156,21 +158,6 @@ DELETE	/api/empleados/{id}	Elimina un empleado
 ✔ Pruebas de eliminación segura
 ✔ Manejo de errores y mensajes informativos
 
-📦 Estructura del Proyecto
-/backend/demo-spring
-    ├── controller
-    ├── service
-    ├── repository
-    ├── model
-    └── resources/application.properties
-
-/frontend/gestion-empleados-frontend
-    ├── src/components
-    │      ├── EmpleadoList.js
-    │      └── EmpleadoForm.js
-    ├── src/services
-    │      └── EmpleadoService.js
-    └── src/App.js
 
 📝 Autor
 
